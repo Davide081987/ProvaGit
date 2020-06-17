@@ -1,0 +1,10 @@
+.container{
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+span{
+  color: red;
+  font-weight: 200;
+}
