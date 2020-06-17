@@ -1,10 +1,45 @@
 .container{
   width: 1200px;
-  height: auto;
   margin: 0 auto;
+}
+
+body {
+  background:#cccccc;
+  font:100% Lucida Sans Unicode,Arial,Verdana,sans-serif;
+}
+
+header {
+  height: 80px;
+  color:black;
+  text-align: center;
 }
 
 span{
   color: red;
   font-weight: 200;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  background-color: black;
+  text-align:center;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  display:inline-block;
+  color: white;
+  text-align: center;
+  padding:7px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background:white; 
+  color: black;
 }
