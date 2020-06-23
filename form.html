@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form in HTML</title>
+</head>
+
+<body>
+  
+  <h2>I Forms</h2>
+
+  <fieldset>
+  <legend>Dati Anagrafici</legend>
+    <form name="form" action="control.php" method="POST" enctype="text/plain" target="_blank">
+      <label for="name">Nome: </label> <input type="text" name="name" id="name">
+
+      <label for="surname">Surname: </label> <input type="text" name="surname" id="surname">
+
+      <label for="email">Enter your email: </label><input type="email" id="email" name="email">
+
+      <label for="pwd">Password: </label><input type="password" id="pwd" name="pwd"><br><br>
+
+      <label for="birthday">Birthday:</label><input type="date" id="birthday" name="birthday"><br><br>
+
+      <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other"> <label for="other">Other</label><br><br>
+
+      <input type="checkbox" id="language1" name="language1" value="Bike">
+      <label for="language1"> HTML5</label><br>
+      <input type="checkbox" id="language2" name="language2" value="Car">
+      <label for="language2"> CSS</label><br>
+      <input type="checkbox" id="language3" name="language3" value="Boat">
+      <label for="language3"> JAVASCRIPT</label><br><br>
+
+      <label for="cars">Choose a car:</label>
+      <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi" selected>Audi</option>
+      </select><br><br>
+
+      <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea><br><br>
+
+      <input type="submit" value="Submit"> <input type="reset" value="Reset">
+      
+    </form>
+  </fieldset>
+
+</body>
+</html>
